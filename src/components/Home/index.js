@@ -3,7 +3,6 @@ import LogoTitle from '../../assets/images/logo-s.png'
 import {Link} from 'react-router-dom'
 import {useState} from 'react';
 import AnimatedLetters from '../AnimatedLetters';
-import Logo from './Logo'
 import Loader from 'react-loaders'
 
 
@@ -42,7 +41,7 @@ const jobArray=['o','f','t','w','a','r','e',' ','e','n','g','i','n','e','e','r']
                 <h2>Frontend Developer /Backend java</h2>
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
             </div>
-            <Logo />
+            
             <Loader type="pacman" />
         </div>
     )
