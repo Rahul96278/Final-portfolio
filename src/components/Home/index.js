@@ -9,7 +9,7 @@ import Loader from 'react-loaders'
 const Home =()=>{
 
 const[letterClass] =useState('text-animate')
-const nameArray =['R', 'a', 'h', 'u', 'l']
+const nameArray =[' ','R', 'a', 'h', 'u', 'l']
 const jobArray=['o','f','t','w','a','r','e',' ','e','n','g','i','n','e','e','r']
 
 
@@ -31,10 +31,11 @@ const jobArray=['o','f','t','w','a','r','e',' ','e','n','g','i','n','e','e','r']
                 />
                 
                 <br />
-                <img src={LogoTitle} alt='developer' />
+                <img src={LogoTitle} alt='developer' className="newlogo"/>
                 <AnimatedLetters letterClass={letterClass}
                 strArray={jobArray}
                 idx={22}
+                className="newfont"
                 />
                  
                 </h1>

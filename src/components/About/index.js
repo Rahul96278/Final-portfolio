@@ -1,6 +1,5 @@
-import {  useState } from 'react'
+import { useState } from 'react'
 import {
-  
   faCss3,
   faGitAlt,
   faHtml5,
@@ -15,8 +14,6 @@ import './index.scss'
 
 const About = () => {
   const [letterClass] = useState('text-animate')
-
-
 
   return (
     <>
@@ -35,13 +32,18 @@ const About = () => {
             technologies on challenging and diverse projects.
           </p>
           <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            With my strong knowledge of web design languages such as HTML, CSS,
+            and JavaScript, and programming languages including Java, C++, and
+            JavaScript, I am confident in my ability to make valuable
+            contributions to your company. I also have excellent communication
+            skills and a thorough understanding of general computer
+            applications. And I do have database knowledge to which is related
+            to job field
           </p>
           <p>
             If I need to define myself in one sentence that would be a friendly
-            person, Music lover, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            person, Music lover, a sports fanatic, photography enthusiast, and
+            tech-obsessed!!!
           </p>
         </div>
 
